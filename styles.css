@@ -1,0 +1,19 @@
+body  {
+    background-color: #ffe4ca;
+    margin: 0 2%;
+}
+h1 {
+    text-align: center;
+}
+.presentation-container {
+    margin: 3% 0; 
+}
+
+ul {
+    list-style:circle;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    width: 14%;
+}
