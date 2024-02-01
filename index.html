@@ -18,8 +18,11 @@
     <div id="left-column">
         <div id="contact">
             <div class="general-info">
-                <img id="img-profile" src="./assets/img/image_profile.jpg" alt="Picture of me and my dog">
-                <h2>Augustin SEGUIN</h2>
+                <center>
+                    <img id="img-profile" src="./assets/img/image_profile.jpg" alt="Picture of me and my dog">
+                </center>
+                <h2 class="fullname">Augustin SEGUIN</h2>
+                <h2 class="job-title">Full stack developer</h2>
                 <ul>
                     <li>Grenoble, 38000</li>
                     <li>15/06/1998</li>
@@ -28,12 +31,16 @@
             <div class="link-contact">
                 <h3>Contact me</h3>
                 <ul>
+                    <li>My CV : <a href="./CV_Augustin_Seguin.pdf" target="_blank"><i
+                                class="fa-solid fa-file icon-contact"></i></a>
+                    </li>
                     <li> <a href="https://www.linkedin.com/in/augustinseguin/" target="_blank"><i
                                 class="fa-brands fa-linkedin icon-contact"></i></a>
                     </li>
-                    <li><a href="mailto:augustinseguin@outlook.fr"><i class="fa-solid fa-envelope icon-contact"></i></a></li>
+                    <li><a href="mailto:augustinseguin@outlook.fr"><i class="fa-solid fa-envelope icon-contact"></i></a>
+                    </li>
                     <li> <a href="https://github.com/AugustinSeguin" target="_blank"><i
-                                class="fa-brands fa-square-github icon-contact" ></i></a>
+                                class="fa-brands fa-square-github icon-contact"></i></a>
                     </li>
                 </ul>
             </div>
@@ -58,9 +65,10 @@
     <hr id="separator-left">
 
     <div id="main">
-
-        <h2 id="mantra">"I am passionate and organized <br> with a good sense of research <br> and a taste for clean
-            code"</h2>
+        <center>
+            <h2 id="mantra">"I am passionate and organized <br> with a good sense of research <br> and a taste for clean
+                code"</h2>
+        </center>
 
         <hr class="main-separator">
 
@@ -68,30 +76,8 @@
             <h2>My experiences</h2>
             <div id="experiences-carrousel">
                 <div class="experience">
-                    <h3 class="experience-title">University Grenoble Alpes, first year of MIASHS license</h3>
-                    <h4 class="experience-description">Despite the fact that University wasn't for me, I discovered
-                        programmation and decided to change direction.</h4>
-                    <ul class="experience-list-skills">
-                        <li class="skill">Linux OS: Ubuntu</li>
-                        <li class="skill">First steps in programmation with Java and R languages</li>
-                    </ul>
-                </div>
-                <div class="experience">
-                    <h3 class="experience-title">Handigital school</h3>
-                    <h4 class="experience-description">10 months training course for disabled people to become fulll
-                        stack
-                        developers</h4>
-                    <ul class="experience-list-skills">
-                        <li class="skill">HTML, CSS & JS</li>
-                        <li class="skill">Database design and SQL queries</li>
-                        <li class="skill">PHP Laravel</li>
-                        <li class="skill">Linux system administration</li>
-                        <li class="skill">Model design with figma</li>
-                    </ul>
-                </div>
-                <div class="experience">
                     <h3 class="experience-title">Work study with Photoweb company & O'clock school</h3>
-                    <h4 class="experience-description">19 months to become application designer and developer</h4>
+                    <h4 class="description">19 months to become application designer and developer</h4>
                     <ul class="experience-list-skills">
                         <li class="skill">Project management</li>
                         <li class="skill">Application and data base design</li>
@@ -108,7 +94,7 @@
                 </div>
                 <div class="experience">
                     <h3 class="experience-title">Side project Ecogest</h3>
-                    <h4 class="experience-description">Ecogest is a social network to share challenges and communicate
+                    <h4 class="description">Ecogest is a social network to share challenges and communicate
                         on the environmental theme. Users can follow each other and encourage each other by creating
                         publications about everyday actions and small gestures in favor of the environment.
                     </h4>
@@ -121,28 +107,49 @@
                         <li class="skill">Information search skills</li>
                     </ul>
                 </div>
+                <div class="experience">
+                    <h3 class="experience-title">Handigital school</h3>
+                    <h4 class="description">10 months training course for disabled people to become full
+                        stack
+                        developers</h4>
+                    <ul class="experience-list-skills">
+                        <li class="skill">HTML, CSS & JS</li>
+                        <li class="skill">Database design and SQL queries</li>
+                        <li class="skill">PHP Laravel</li>
+                        <li class="skill">Linux system administration</li>
+                        <li class="skill">Model design with figma</li>
+                    </ul>
+                </div>
+                <div class="experience">
+                    <h3 class="experience-title">University Grenoble Alpes, first year of MIASHS license</h3>
+                    <h4 class="description">Despite the fact that University wasn't for me, I discovered
+                        programmation and decided to change direction.</h4>
+                    <ul class="experience-list-skills">
+                        <li class="skill">Linux OS: Ubuntu</li>
+                        <li class="skill">First steps in programmation with Java and R languages</li>
+                    </ul>
+                </div>
             </div>
-
         </div>
 
         <hr class="main-separator">
 
         <div id="next-steps">
             <h2>Next step... Diginamic</h2>
-            <p>My goal is to continue work study integrating Diginamic school for the data engineer training for the
+            <p class="description">My goal is to continue work study integrating Diginamic school for the data engineer
+                training for the
                 April 2024 session</p>
-            <p>That's why I'm looking for a new company. I'm planning to become a lead backend developer with data and
+            <p class="description">That's why I'm looking for a new company. I'm planning to become a lead backend
+                developer with data and
                 frontend skills - equivalent bac +5</p>
-            <p></p>
+
         </div>
 
-    </div>
 
-
-    <!-- SCRIPTS JS loaded -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script src="./script.js"></script>
+        <!-- SCRIPTS JS loaded -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script src="./script.js"></script>
 </body>
 
 </html>

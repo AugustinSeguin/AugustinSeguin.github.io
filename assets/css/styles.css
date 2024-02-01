@@ -35,15 +35,18 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
 .link-contact ul {
     display: flex;
     list-style: none;
+    margin-left: -16px;
 }
 
 .icon-contact {
     margin-right: 30px;
     font-size: 30px;
-} 
+    color: #7248ff;
+}
 
 #main {
     margin-left: 40px;
@@ -73,7 +76,7 @@ ul {
 }
 
 #separator-left {
-    background-color:#7248ff;
+    background-color: #7248ff;
     width: 1rem;
 }
 
@@ -81,13 +84,81 @@ ul {
     padding: 0 20px;
 }
 
-#mantra {
-    margin-left: 31%;
-}
-
 .main-separator {
-    background-color:#7248ff;
+    background-color: #7248ff;
     height: 1rem;
     width: 70%;
 }
 
+.description {
+    text-align: justify;
+}
+
+/* selected link */
+a:active {
+    background-color: #7248ff;
+}
+
+@media screen and (max-width: 1060px) {
+    body {
+        background-color: #fff3f3;
+        display: flex;
+        flex-direction: column;
+        font-family: system-ui, serif;
+        border: none;
+        width: 92%;
+        margin-left: 14px;
+    }
+
+    #left-column {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding: 0;
+    }
+
+    #img-profile {
+        width: 80%;
+    }
+
+    .icon-contact {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .carrousel-container {
+        width: 88%;
+        padding: 0 0;
+        margin: 0 30px;
+        margin-top: 0;
+    }
+
+    #main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .experience {
+        padding: 0;
+    }
+
+    #next-steps {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    #next-steps p {
+        margin-left: 0;
+    }
+
+    #mantra {
+        margin-left: 0;
+    }
+
+    .fullname,
+    .job-title {
+        text-align: center;
+    }
+}
