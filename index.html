@@ -5,51 +5,144 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- Slick carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Portfolio Augustin SEGUIN</title>
 </head>
 
 <body>
-    <h1>Portfolio of Augustin SEGUIN</h1>
-    <div class="presentation-container">
-        <h3>
-            I introduce myself. My name is Augustin SEGUIN.
-            I am 24 years old and I live with my dog Luka in Sassenage, near Grenoble.
-        </h3>
-        <p>
-            After obtaining my baccalaureate, I began higher education at the University of Grenoble Alpes in the
-            MIASHS course (Mathematics and Computer Science Applied to Human and Social Sciences).
-            During my first year, I realized that algorithmic programming was my way.
-            So I decided to change course and join the Handigital Seyssins training, from which I graduated.
-            Bac+2 equivalent.
-            From now on, I work alternately at Photoweb and O'clock formation with the aim of becoming a designer -
-            application developer.
-        </p>
-    </div>
-    <h3>Here is a list of my skills acquired at Handigital and worked at O'clock</h3>
-    <ul>
-        <li>Linux Administration</li>
-        <li>Create a static site: HTML & CSS</li>
-        <li>Create a manipulate a database in SQL</li>
-        <li>Dynamic display with JavaScript</li>
-        <li>PHP Backend Language</li>
-        <li>Laravel Framework</li>
-        <li>Git</li>
-    </ul>
-    <h3>At Photoweb, I work on different technologies from Handigital & O'clock:</h3>
-    <ul>
-        <li>SQL Microsoft Manager</li>
-        <li>CS</li>
-        <li>CSHTML : razor</li>
-        <li>Agile method Kanban</li>
-    </ul>
 
-    <div class="contact">
-        <a href="https://www.linkedin.com/in/augustinseguin/">My LinkedIn here</a>
-        <a href="mailto:augustinseguin@gmail.com">My Email here</a>
+    <div id="left-column">
+        <div id="contact">
+            <div class="general-info">
+                <img id="img-profile" src="./assets/img/image_profile.jpg" alt="Picture of me and my dog">
+                <h2>Augustin SEGUIN</h2>
+                <ul>
+                    <li>Grenoble, 38000</li>
+                    <li>15/06/1998</li>
+                </ul>
+            </div>
+            <div class="link-contact">
+                <h3>Contact me</h3>
+                <ul>
+                    <li> <a href="https://www.linkedin.com/in/augustinseguin/" target="_blank"><i
+                                class="fa-brands fa-linkedin icon-contact"></i></a>
+                    </li>
+                    <li><a href="mailto:augustinseguin@outlook.fr"><i class="fa-solid fa-envelope icon-contact"></i></a></li>
+                    <li> <a href="https://github.com/AugustinSeguin" target="_blank"><i
+                                class="fa-brands fa-square-github icon-contact" ></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="various-info">
+                <h3>Some HR informations</h3>
+                <ul>
+                    <li>B1 english level</li>
+                    <li>RQTH</li>
+                </ul>
+            </div>
+            <div class="hobbies">
+                <h3>Some of my hobbies</h3>
+                <ul>
+                    <li>My dog Luka</li>
+                    <li>Sports, especially football, cycling and hiking</li>
+                    <li>Geek: research about tech news</li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <p>See you soon! </p>
 
+    <hr id="separator-left">
+
+    <div id="main">
+
+        <h2 id="mantra">"I am passionate and organized <br> with a good sense of research <br> and a taste for clean
+            code"</h2>
+
+        <hr class="main-separator">
+
+        <div class="carrousel-container">
+            <h2>My experiences</h2>
+            <div id="experiences-carrousel">
+                <div class="experience">
+                    <h3 class="experience-title">University Grenoble Alpes, first year of MIASHS license</h3>
+                    <h4 class="experience-description">Despite the fact that University wasn't for me, I discovered
+                        programmation and decided to change direction.</h4>
+                    <ul class="experience-list-skills">
+                        <li class="skill">Linux OS: Ubuntu</li>
+                        <li class="skill">First steps in programmation with Java and R languages</li>
+                    </ul>
+                </div>
+                <div class="experience">
+                    <h3 class="experience-title">Handigital school</h3>
+                    <h4 class="experience-description">10 months training course for disabled people to become fulll
+                        stack
+                        developers</h4>
+                    <ul class="experience-list-skills">
+                        <li class="skill">HTML, CSS & JS</li>
+                        <li class="skill">Database design and SQL queries</li>
+                        <li class="skill">PHP Laravel</li>
+                        <li class="skill">Linux system administration</li>
+                        <li class="skill">Model design with figma</li>
+                    </ul>
+                </div>
+                <div class="experience">
+                    <h3 class="experience-title">Work study with Photoweb company & O'clock school</h3>
+                    <h4 class="experience-description">19 months to become application designer and developer</h4>
+                    <ul class="experience-list-skills">
+                        <li class="skill">Project management</li>
+                        <li class="skill">Application and data base design</li>
+                        <li class="skill">Docker</li>
+                        <li class="skill">API with PHP laravel</li>
+                        <li class="skill">Frontend development with vueJS framework</li>
+                        <li class="skill">Frontend development cross platform with Flutter framework</li>
+                        <li class="skill">SQL queries</li>
+                        <li class="skill">Application security</li>
+                        <li class="skill">Unit testing</li>
+                        <li class="skill">English skills</li>
+                        <li class="skill">Information search skills</li>
+                    </ul>
+                </div>
+                <div class="experience">
+                    <h3 class="experience-title">Side project Ecogest</h3>
+                    <h4 class="experience-description">Ecogest is a social network to share challenges and communicate
+                        on the environmental theme. Users can follow each other and encourage each other by creating
+                        publications about everyday actions and small gestures in favor of the environment.
+                    </h4>
+                    <ul class="experience-list-skills">
+                        <li class="skill">Project management</li>
+                        <li class="skill">Application security</li>
+                        <li class="skill">Application and data base design</li>
+                        <li class="skill">PHP Laravel</li>
+                        <li class="skill">Frontend development cross platform with Flutter framework</li>
+                        <li class="skill">Information search skills</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="main-separator">
+
+        <div id="next-steps">
+            <h2>Next step... Diginamic</h2>
+            <p>My goal is to continue work study integrating Diginamic school for the data engineer training for the
+                April 2024 session</p>
+            <p>That's why I'm looking for a new company. I'm planning to become a lead backend developer with data and
+                frontend skills - equivalent bac +5</p>
+            <p></p>
+        </div>
+
+    </div>
+
+
+    <!-- SCRIPTS JS loaded -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
