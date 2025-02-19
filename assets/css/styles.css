@@ -69,6 +69,8 @@ ul {
 #next-steps {
     padding: 20px 40px;
     margin-top: 20px;
+    display: block;
+    text-align: center;
 }
 
 #next-steps p {
