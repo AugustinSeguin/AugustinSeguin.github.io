@@ -1,0 +1,30 @@
+{
+    "title": "Ecogest",
+    "description": "Ecogest est mon projet personnel, pensé comme un réseau social autour des défis écologiques et des gestes du quotidien. Cette étape représente mon envie de construire un produit de bout en bout, avec une attention forte à la structure technique, à la vision fonctionnelle et à l'évolution du projet dans le temps. J'y ai appris à garder une cohérence entre idée, modèle de données et expérience utilisateur, tout en travaillant sur une application qui devait pouvoir grandir progressivement. Ce projet reflète aussi mon autonomie et ma capacité à porter une direction technique sur un sujet qui me tient à cœur.",
+    "skills": [
+        {
+            "title": "Gestion de projet",
+            "description": "Découper le besoin et faire avancer le produit étape par étape."
+        },
+        {
+            "title": "Modélisation",
+            "description": "Structurer les données pour garder un projet propre et évolutif."
+        },
+        {
+            "title": "Autonomie",
+            "description": "Faire avancer un projet personnel avec régularité et exigence."
+        },
+        {
+            "title": "Vision produit",
+            "description": "Relier les choix techniques à l'usage final et à la valeur du projet."
+        },
+        {
+            "title": "PHP Laravel",
+            "description": "Développer une application backendavec le framework Laravel."
+        },
+        {
+            "title": "Flutter",
+            "description": "Développer une application mobile cross-platform avec le framework Flutter."
+        }
+    ]
+}

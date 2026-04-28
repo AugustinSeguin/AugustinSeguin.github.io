@@ -1,0 +1,22 @@
+{
+    "title": "MIASHS - Université Grenoble Alpes",
+    "description": "Cette première étape représente mon passage à l'université Grenoble Alpes, où j'ai commencé un parcours MIASHS avant de comprendre que ma voie se trouvait davantage du côté du développement. Même si cette période n'a pas été mon point d'arrivée, elle a joué un rôle clé dans la construction de mon parcours. J'y ai découvert la programmation, pris goût à la logique technique et commencé à projeter une réorientation plus concrète vers le métier de développeur. Ce moment a surtout renforcé ma capacité à me remettre en question, à apprendre vite et à transformer une orientation initiale en tremplin pour la suite.",
+    "skills": [
+        {
+            "title": "Découverte de la programmation",
+            "description": "Faire ses premiers pas dans la logique du code et des algorithmes."
+        },
+        {
+            "title": "Réorientation",
+            "description": "Comprendre progressivement vers quel métier et quel environnement se diriger."
+        },
+        {
+            "title": "Linux",
+            "description": "Découvrir l'environnement Linux et ses outils de développement."
+        },
+        {
+            "title": "Adaptabilité",
+            "description": "Transformer une première orientation en socle pour la suite du parcours."
+        }
+    ]
+}

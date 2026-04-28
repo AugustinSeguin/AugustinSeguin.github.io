@@ -1,174 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="CV interactif d'Augustin Seguin, développeur full stack junior passionné de vélo sur route.">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <!-- Slick carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>💻</text></svg>">
     <title>Portfolio Augustin SEGUIN</title>
 </head>
 
 <body>
+    <div class="page-shell">
+        <header class="hero">
+            <div class="hero__copy">
+                <p class="eyebrow">Portfolio · CV interactif</p>
+                <h1>Augustin SEGUIN</h1>
+                <p class="hero__subtitle">Concepteur développeur full stack junior</p>
 
-    <div id="left-column">
-        <div id="contact">
-            <div class="general-info">
-                <center>
-                    <img id="img-profile" src="./assets/img/image_profile.jpg" alt="Picture of me and my dog">
-                </center>
-                <h2 class="fullname">Augustin SEGUIN</h2>
-                <h2 class="job-title">Full stack engineer</h2>
-                <ul>
-                    <li>Grenoble, 38000</li>
-                    <li>15/06/1998</li>
-                </ul>
+                <div id="hero-description" class="hero__description">
+                    <p>Débrouillard, rigoureux & passionné.</p>
+                    <p>Passionné par le clean code, l'architecture. J'aime les défis techniques.</p>
+                    <p>RQTH</p>
+                    <p>Passionné de sport : randos, vélo, trail, football</p>
+                </div>
             </div>
-            <div class="link-contact">
-                <h3>Contact me</h3>
-                <ul>
-                    <li>My CV : <a href="./CV-Augustin-SEGUIN-2025.pdf" target="_blank"><i
-                                class="fa-solid fa-file icon-contact"></i></a>
+        </header>
+
+        <main class="main-grid">
+            <section class="map-panel" aria-labelledby="map-title">
+                <div class="map-panel__header">
+                    <div>
+                        <p class="eyebrow">Carte des étapes</p>
+                        <h2 id="map-title">Les étapes de ma carrière</h2>
+                    </div>
+                </div>
+
+                <ul class="stage-grid" aria-label="Étapes professionnelles">
+                    <li>
+                        <button class="stage-card is-active" type="button" data-step="1">
+                            <span class="stage-card__number">01</span>
+                            <span class="stage-card__label">MIASHS - UGA</span>
+                            <span class="stage-card__meta">2020 - 2021</span>
+                        </button>
                     </li>
-                    <li> <a href="https://www.linkedin.com/in/augustinseguin/" target="_blank"><i
-                                class="fa-brands fa-linkedin icon-contact"></i></a>
+                    <li>
+                        <button class="stage-card" type="button" data-step="2">
+                            <span class="stage-card__number">02</span>
+                            <span class="stage-card__label">Handigital / stage Photoweb</span>
+                            <span class="stage-card__meta">2021 - 2022</span>
+                        </button>
                     </li>
-                    <li><a href="mailto:augustinseguin@gmail.com"><i class="fa-solid fa-envelope icon-contact"></i></a>
+                    <li>
+                        <button class="stage-card" type="button" data-step="3">
+                            <span class="stage-card__number">03</span>
+                            <span class="stage-card__label">O'clock + Photoweb</span>
+                            <span class="stage-card__meta">Alternance · 2022 - 2024</span>
+                        </button>
                     </li>
-                    <li> <a href="https://github.com/AugustinSeguin" target="_blank"><i
-                                class="fa-brands fa-square-github icon-contact"></i></a>
+                    <li>
+                        <button class="stage-card" type="button" data-step="4">
+                            <span class="stage-card__number">04</span>
+                            <span class="stage-card__label">Ecogest</span>
+                            <span class="stage-card__meta">Projet personnel</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="stage-card" type="button" data-step="5">
+                            <span class="stage-card__number">05</span>
+                            <span class="stage-card__label">MyDigitalSchool / Inetum au CEA</span>
+                            <span class="stage-card__meta">Alternance · 2024 - 2026</span>
+                        </button>
                     </li>
                 </ul>
+            </section>
+
+            <section class="step-panel" id="step-panel" aria-live="polite">
+                <div class="step-panel__loading">
+                    <p class="eyebrow">Étape sélectionnée</p>
+                    <h2>Chargement du parcours…</h2>
+                    <p>Choisis une étape pour afficher le titre, la description et les compétences associées.</p>
+                </div>
+            </section>
+        </main>
+
+
+
+        <footer class="contact-drawer" id="contact-drawer" aria-label="Liens de contact">
+            <div class="contact-drawer__header">
+                <p class="eyebrow">Contact</p>
+                <p>Accès rapide aux informations utiles.</p>
             </div>
-            <div class="various-info">
-                <h3>Some HR informations</h3>
-                <ul>
-                    <li>B1 english level</li>
-                    <li>RQTH</li>
-                </ul>
-            </div>
-            <div class="hobbies">
-                <h3>Some of my hobbies</h3>
-                <ul>
-                    <li>My dog Luka</li>
-                    <li>Sports, especially football, cycling and hiking</li>
-                    <li>Geek: research about tech news</li>
-                </ul>
-            </div>
-        </div>
+            <a class="contact-link contact-link--primary" href="./CV-Augustin-SEGUIN.pdf" download>
+                <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+                Télécharger le CV
+            </a>
+            <a class="contact-link" href="https://www.linkedin.com/in/augustinseguin/" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                LinkedIn
+            </a>
+            <a class="contact-link" href="tel:+330685346728">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                +33 06 85 34 67 28
+            </a>
+            <a class="contact-link" href="mailto:augustinseguin@gmail.com">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                augustinseguin@gmail.com
+            </a>
+        </footer>
     </div>
 
-    <hr id="separator-left">
-
-    <div id="main">
-        <center>
-            <h2 id="mantra">"I am passionate and organized <br> with a good sense of research <br> and a taste for clean
-                code"</h2>
-        </center>
-
-        <hr class="main-separator">
-
-        <div class="carrousel-container">
-            <h2>My experiences</h2>
-            <div id="experiences-carrousel">
-                <div class="experience">
-                    <h3 class="experience-title">Work study with Inetum company at CEA project & MyDigitalSchool</h3>
-                    <p>2024 - 2026</p>
-                    <h4 class="description">2 years of project management & architecture skills to become a fullstack engineer</h4>
-                    <ul class="experience-list-skills">
-                        <li class="skill">Project management</li>
-                        <li class="skill">Application and data base design</li>
-                        <li class="skill">Linux system administration</li>
-                        <li class="skill">C# .NET</li>
-                        <li class="skill">Application security</li>
-                        <li class="skill">Unit testing</li>
-                        <li class="skill">English skills</li>
-                        <li class="skill">Information search skills</li>
-                        <li class="skill">Git</li>
-                    </ul>
-                </div>
-                <div class="experience">
-                    <h3 class="experience-title">Work study with Photoweb company & O'clock school</h3>
-                    <p>2022 - 2024</p>
-                    <h4 class="description">19 months to become application designer and developer</h4>
-                    <ul class="experience-list-skills">
-                        <li class="skill">Project management & agility</li>
-                        <li class="skill">Application and data base design</li>
-                        <li class="skill">Docker</li>
-                        <li class="skill">Linux system administration</li>
-                        <li class="skill">API with PHP laravel</li>
-                        <li class="skill">C# .NET</li>
-                        <li class="skill">Frontend development with vueJS framework</li>
-                        <li class="skill">Frontend development cross platform with Flutter framework</li>
-                        <li class="skill">Ecommerce development with PHP Magento</li>
-                        <li class="skill">SQL queries</li>
-                        <li class="skill">Application security</li>
-                        <li class="skill">Unit testing</li>
-                        <li class="skill">English skills</li>
-                        <li class="skill">Information search skills</li>
-                        <li class="skill">Git</li>
-                    </ul>
-                </div>
-                <div class="experience">
-                    <h3 class="experience-title">Side project Ecogest</h3>
-                    <p>2023 -</p>
-                    <h4 class="description">Ecogest is a social network to share challenges and communicate
-                        on the environmental theme. Users can follow each other and encourage each other by creating
-                        publications about everyday actions and small gestures in favor of the environment.
-                    </h4>
-                    <ul class="experience-list-skills">
-                        <li class="skill">Project management</li>
-                        <li class="skill">Application security</li>
-                        <li class="skill">Application and data base design</li>
-                        <li class="skill">PHP Laravel</li>
-                        <li class="skill">Frontend development cross platform with Flutter framework</li>
-                        <li class="skill">Information search skills</li>
-                        <li class="skill">Bidirectional API</li>
-                        <li class="skill">Git</li>
-                    </ul>
-                </div>
-                <div class="experience">
-                    <h3 class="experience-title">Handigital school</h3>
-                    <p>2021 - 2022</p>
-                    <h4 class="description">10 months training course for disabled people to become full
-                        stack
-                        developers</h4>
-                    <ul class="experience-list-skills">
-                        <li class="skill">HTML, CSS & JS</li>
-                        <li class="skill">Database design and SQL queries</li>
-                        <li class="skill">PHP Laravel</li>
-                        <li class="skill">Linux system administration</li>
-                        <li class="skill">Model design with figma</li>
-                        <li class="skill">Git</li>
-                    </ul>
-                </div>
-                <div class="experience">
-                    <h3 class="experience-title">University Grenoble Alpes, first year of MIASHS license</h3>
-                    <p>2020 - 2021</p>
-                    <h4 class="description">Despite the fact that University wasn't for me, I discovered
-                        programmation and decided to change direction.</h4>
-                    <ul class="experience-list-skills">
-                        <li class="skill">Linux OS: Ubuntu</li>
-                        <li class="skill">First steps in programmation with Java and R languages</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <hr class="main-separator">
-
-        <div id="next-steps">
-            <h2>Contact me if you're interested with my profile & we can talk about any development project</h2>
-        </div>
-
-        <!-- SCRIPTS JS loaded -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-        <script src="./script.js"></script>
+    <script type="module" src="./script.js"></script>
 </body>
 
 </html>

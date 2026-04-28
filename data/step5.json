@@ -1,0 +1,46 @@
+{
+    "title": "MyDigitalSchool / Inetum au CEA en alternance",
+    "description": "Cette dernière étape correspond à mon alternance la plus récente, chez Inetum sur le projet CEA, en parallèle de MyDigitalSchool. C'est l'étape où j'ai le plus consolidé ma posture de développeur junior prêt à intervenir dans un cadre professionnel exigeant. J'y ai renforcé ma rigueur, mon sens de l'organisation et ma capacité à travailler sur une application suivie dans le temps. Cette expérience m'a amené à mieux structurer mes livraisons, à documenter davantage mes choix et à me placer dans une logique de qualité durable plutôt que de simple fonctionnalité. Elle représente aujourd'hui le niveau de maturité technique et professionnelle que je veux continuer à développer.",
+    "skills": [
+        {
+            "title": "Architecture applicative",
+            "description": "Concevoir des solutions propres dans un contexte de long terme."
+        },
+        {
+            "title": "C# .NET",
+            "description": "Développer des fonctionnalités stables dans un environnement structuré."
+        },
+        {
+            "title": "Collaboration",
+            "description": "Avancer avec l'équipe et garder une communication claire sur l'avancement."
+        },
+        {
+            "title": "Qualité logicielle",
+            "description": "Penser maintenabilité, lisibilité et fiabilité dans chaque évolution."
+        },
+        {
+            "title": "Devops",
+            "description": "Comprendre les enjeux de déploiement et d'intégration continue dans un projet suivi."
+        },
+        {
+            "title": "Relation client",
+            "description": "Comprendre le besoin du client et traduire ces attentes en spécifications techniques."
+        },
+        {
+            "title": "Cycle en V",
+            "description": "Travailler dans un cadre de développement structuré avec des phases de validation claires."
+        },
+        {
+            "title": "Client CEA",
+            "description": "Travailler pour un client exigeant dans le secteur de la recherche et de l'innovation, avec des besoins spécifiques en matière de sécurité et de performance."
+        },
+        {
+            "title": "React JS",
+            "description": "Dévélopper des interfaces web dynamiques avec le framework React JS."
+        },
+        {
+            "title": "Angular JS",
+            "description": "Dévélopper des interfaces web dynamiques avec le framework Angular JS."
+        }
+    ]
+}

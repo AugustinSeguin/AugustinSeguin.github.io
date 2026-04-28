@@ -1,0 +1,22 @@
+{
+    "title": "Handigital / stage Photoweb",
+    "description": "Cette étape correspond à ma période Handigital, complétée par un stage chez Photoweb. C'est un moment de montée en compétence très concret, où j'ai consolidé les bases du web tout en découvrant un cadre professionnel réel. J'y ai appris à travailler avec des contraintes plus nettes, à mieux lire une demande, à livrer quelque chose de propre et à garder une attention particulière au résultat. Le stage m'a aussi permis de voir comment s'articulent les attentes d'une équipe produit et les réalités de l'implémentation. Cette expérience a été un vrai socle pour la suite de mon parcours.",
+    "skills": [
+        {
+            "title": "Première expérience pro",
+            "description": "Découvrir les attentes, méthodes et rythmes d'un environnement d'entreprise."
+        },
+        {
+            "title": "HTML / CSS / JS",
+            "description": "Consolider les bases du développement web front-end."
+        },
+        {
+            "title": "Esprit d'équipe",
+            "description": "Apprendre à échanger, s'adapter et avancer avec un cadre collectif."
+        },
+        {
+            "title": "Autonomie",
+            "description": "Gagner en confiance sur des tâches plus concrètes et mieux cadrées."
+        }
+    ]
+}

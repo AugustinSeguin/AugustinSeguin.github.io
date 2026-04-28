@@ -1,0 +1,34 @@
+{
+    "title": "O'clock + Photoweb en alternance",
+    "description": "Cette étape couvre mon alternance chez Photoweb en parallèle de ma formation O'clock. J'y ai découvert une montée en puissance sur des sujets plus variés, avec une vraie exigence sur la qualité, la lisibilité du code et la capacité à livrer dans des délais réels. Cette période m'a permis d'explorer plusieurs couches du métier, du front au back, tout en continuant à apprendre dans un cadre scolaire très orienté pratique. Elle marque un vrai tournant dans mon parcours, avec davantage de responsabilités, de polyvalence et de confiance dans ma capacité à m'intégrer dans une équipe de développement.",
+    "skills": [
+        {
+            "title": "Polyvalence",
+            "description": "Passer d'un sujet technique à un autre sans perdre la cohérence d'ensemble."
+        },
+        {
+            "title": "API / backend",
+            "description": "Comprendre et faire évoluer la logique côté serveur."
+        },
+        {
+            "title": "Frontend",
+            "description": "Construire des interfaces plus fiables et plus lisibles."
+        },
+        {
+            "title": "Montée en compétence",
+            "description": "Avancer plus vite grâce à la confrontation au contexte réel de travail."
+        },
+        {
+            "title": "Méthodes agiles",
+            "description": "Travail en équipe selon les principes agiles : SCRUM & KANBAN."
+        },
+        {
+            "title": "C# .NET",
+            "description": "Coder avec le framework de Microsoft et ses outils de développement."
+        },
+        {
+            "title": "PHP Laravel",
+            "description": "Coder avec le framework Laravel et ses outils de développement."
+        }
+    ]
+}
